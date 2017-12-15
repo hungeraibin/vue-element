@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueResouce from 'vue-resource'
+
+import 'common/stylus/index.styl'
+
+Vue.use(VueResouce)
 
 Vue.config.productionTip = false
 
